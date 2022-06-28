@@ -74,6 +74,10 @@ main {
   bottom:50px;
 }
 
+.bottom-content p {
+  margin:0;
+}
+
 h1.temp {
   width: 100vw;
   text-align: center;
