@@ -1,0 +1,86 @@
+:root {
+
+/* Colors: */
+
+--marula: #E2DE4B;
+--wagasi: #F6F8F1;
+--turkana: #4EE58B;
+--grassland: #33CC66;
+--kambaba: #112C2F;
+
+/* Fonts: */
+--titles: 'Poppins', sans-serif;
+--text: 'Raleway', sans-serif;
+}
+
+html,body {
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: var(--text);
+  line-height:1.8em;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: var(--titles);
+}
+
+.grassland {
+  color: var(--grassland);
+}
+
+.wagasi {
+  color: var(--wagasi);
+}
+
+main {
+  background-color:var(--kambaba);
+  position:relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  width:100vw;
+  color: var(--wagasi);
+}
+
+.mainback {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url('../img/background.jpg') center center no-repeat;
+  background-size: cover;
+  opacity:.23;
+}
+
+.triangul {
+  position:absolute;
+  top:-90px;
+  left:calc(50vw - 90px);
+}
+
+.triangul img {
+  width:180px;
+}
+
+.bottom-content {
+  position:absolute;
+  text-align: center;
+  padding:0px 20px;
+  bottom:60px;
+}
+
+h1.temp {
+  width: 100vw;
+  text-align: center;
+  position:relative;
+}
+
+h1.temp img {
+  width: 80%;
+  max-width:720px;
+}

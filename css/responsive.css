@@ -1,0 +1,11 @@
+@media screen and (max-width : 800px) {
+  .triangul {
+    position:absolute;
+    top:-40px;
+    left:calc(50vw - 40px);
+  }
+
+  .triangul img {
+    width:80px;
+  }
+}
