@@ -54,7 +54,7 @@ main {
   height:100%;
   background: url('../img/background.jpg') center center no-repeat;
   background-size: cover;
-  opacity:.9;
+  opacity:1;
 }
 
 .triangul {
@@ -71,7 +71,7 @@ main {
   position:absolute;
   text-align: center;
   padding:0px 20px;
-  bottom:60px;
+  bottom:50px;
 }
 
 h1.temp {
