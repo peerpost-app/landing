@@ -777,7 +777,7 @@ h4.subtitles {
 
 .team-top p {
   font-weight:800;
-  color:var(--grassland);
+  color:var(--wagasi);
 }
 
 .team-bottom p {
@@ -1068,7 +1068,9 @@ body::-webkit-scrollbar-thumb {
   right:80px;
   width:135px;
   height:138px;
-  background:url('../img/svg/trianguls-green.svg')
+  background:url('../img/svg/trianguls-green.svg');
+  background-repeat: no-repeat;
+  z-index:10;
 }
 
 
@@ -1079,6 +1081,7 @@ body::-webkit-scrollbar-thumb {
   width:115px;
   height:125px;
   background:url('../img/svg/dots.svg');
+  background-repeat: no-repeat;
   z-index:10;
 }
 
@@ -1089,5 +1092,6 @@ body::-webkit-scrollbar-thumb {
   width:115px;
   height:125px;
   background:url('../img/svg/lines.svg');
+  background-repeat: no-repeat;
   z-index:10;
 }
