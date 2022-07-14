@@ -23,6 +23,19 @@ window.addEventListener("load", event => {
   var load = image.complete;
   $('.obscurer').addClass('close');
 
+  //aminations in hero header
+
+  setTimeout(function(){
+    $('.big-logo').addClass('in');
+  }, 300);
+
+  setTimeout(function(){
+    $('#social-fixed').addClass('in');
+    $('.burger').addClass('in');
+    $('.top-button').addClass('in');
+    $('.bottom-hero').addClass('in');
+  }, 700);
+
 });
 
 
@@ -43,18 +56,7 @@ jQuery(document).ready(function( $ ){
     });
 
 
-    //aminations in hero header
 
-    setTimeout(function(){
-      $('.big-logo').addClass('in');
-    }, 300);
-
-    setTimeout(function(){
-      $('#social-fixed').addClass('in');
-      $('.burger').addClass('in');
-      $('.top-button').addClass('in');
-      $('.bottom-hero').addClass('in');
-    }, 700);
 
 
     //menu animations
