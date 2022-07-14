@@ -732,18 +732,18 @@ h4.subtitles {
 
 
 #the-team {
-  padding:100px 0px;
-  background:var(--grassland);
+  padding:100px 0px 0px 0px;
+  background:var(--kambaba);
 }
 
 .team-card {
     width: calc(33.33% - 20px);
-    background-color: var(--grassland);
-    box-shadow: 0px 0px 20px rgb(44 110 60 / 32%);
+    background-color: var(--kambaba);
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 32%);
     padding: 30px;
     margin-bottom: 60px;
     position: relative;
-    color:var(--kambaba);
+    color:var(--wagasi);
     height: max-content;
 
   }
@@ -777,7 +777,7 @@ h4.subtitles {
 
 .team-top p {
   font-weight:800;
-  color:var(--wagasi);
+  color:var(--grassland);
 }
 
 .team-bottom p {
@@ -786,7 +786,7 @@ h4.subtitles {
 }
 
 .team-bottom a {
-  color:var(--wagasi);
+  color:var(--grassland);
 }
 
 .team-card .wave {
