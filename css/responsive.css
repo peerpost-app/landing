@@ -206,6 +206,7 @@
     width:100%;
   }
 
+
   .big-logo {
     padding-top:60px;
   }
@@ -337,7 +338,7 @@
   }
 
   #mission {
-    padding:40px 0px;
+    padding:40px 0px 0px 0px;
   }
 
   .very-big-text {
@@ -376,6 +377,11 @@
   .m2 {
     margin-top:20px;
   }
+
+
+    #key-benefits {
+      padding-top:60px;
+    }
 
   .benefit-right {
     display:none;
