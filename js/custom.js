@@ -68,12 +68,14 @@ jQuery(document).ready(function( $ ){
       $(this).toggleClass('close-icon');
       $('header').toggleClass('expand');
       $('#social-fixed').toggleClass('resp');
+      $('body').toggleClass('menu-on');
     });
 
     $('header ul li a').click(function(){
       setTimeout(function(){
         $('.burger').toggleClass('close-icon');
         $('header').toggleClass('expand');
+        $('body').toggleClass('menu-on');
       }, 1000);
     });
 
