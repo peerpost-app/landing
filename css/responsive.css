@@ -1,4 +1,7 @@
-@media screen and (max-width : 800px) {
+/* all tablets*/
+
+@media only screen and (max-width: 1124px) and (orientation:portrait) {
+  /*coming soon page*/
   .triangul {
     position:absolute;
     top:-40px;
@@ -7,5 +10,545 @@
 
   .triangul img {
     width:80px;
+  }
+
+  /*home page*/
+
+  .workspace {
+    width: calc(100% - 120px);
+  }
+
+  .top-fund9 {
+
+    margin-left: 20px;
+
+  }
+
+  a.fund9 {
+    font-size:14px;
+    padding:12px;
+  }
+
+  .top-button {
+    left:30px;
+  }
+
+  .burger {
+    right:30px;
+  }
+
+  #top-hero,
+  #top-hero .workspace {
+    height:46vh;
+  }
+
+  #social-fixed {
+    right:20px;
+    bottom:12px;
+  }
+
+  .scroll-tri {
+    right:20px;
+    width:100px;
+    background-size: 100%;
+    top:-120px;
+  }
+
+  .bottom-hero {
+    display:none;
+  }
+
+  .mission-1 {
+    width:100%;
+  }
+
+  .big-logo {
+    padding-top:60px;
+  }
+
+  .benefit-right .wrapper {
+    padding-bottom: calc(200% - 26px);
+  }
+
+  .b-area-text {
+    padding: 0px 36px 0px 0px;
+  }
+
+  .benefit-right .wrapper img {
+    width:initial;
+    left:-50%;
+  }
+
+  .scroll-dots {
+    left:20px;
+  }
+
+  .more-card,
+  .team-card {
+    width:calc(50% - 20px);
+    margin-bottom:56px;
+  }
+
+  #cardano .workspace {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #cardano .workspace .half {
+    width:100%;
+  }
+
+  #cardano .workspace .half:nth-child(2) {
+    width:80%;
+  }
+
+  #cardano .workspace ul {
+    margin-top:60px;
+  }
+
+  #partners .medium-big-text {
+    max-width: 100%;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  footer .workspace {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .foot-left,
+  .foot-right {
+    width:100%;
+  }
+
+  .foot-right  {
+    margin-top:80px;
+  }
+
+  .animate.d200,
+  .animate.d400 {
+    animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+  }
+
+  .team-card:nth-child(odd) .wave {
+    bottom: -20px!important;
+    top:auto!important;
+  }
+
+  .team-card:nth-child(even) .wave {
+    top: -20px!important;
+    bottom:auto!important;
+  }
+}
+
+@media screen and (max-width : 800px) {
+  /*coming soon page*/
+  .triangul {
+    position:absolute;
+    top:-40px;
+    left:calc(50vw - 40px);
+  }
+
+  .triangul img {
+    width:80px;
+  }
+
+  /*home page*/
+
+  .workspace {
+    width: calc(100% - 120px);
+  }
+
+  .top-fund9 {
+
+    margin-left: 20px;
+
+  }
+
+  a.fund9 {
+    font-size:14px;
+    padding:12px;
+  }
+
+  .top-button {
+    left:30px;
+  }
+
+  .burger {
+    right:30px;
+  }
+
+  #top-hero,
+  #top-hero .workspace {
+    height:46vh;
+  }
+
+  #social-fixed {
+    right:20px;
+    bottom:12px;
+  }
+
+  .scroll-tri {
+    right:20px;
+    width:100px;
+    background-size: 100%;
+    top:-120px;
+  }
+
+  .bottom-hero {
+    display:none;
+  }
+
+  .mission-1 {
+    width:100%;
+  }
+
+  .big-logo {
+    padding-top:60px;
+  }
+
+  .benefit-right .wrapper {
+    padding-bottom: calc(200% - 26px);
+  }
+
+  .b-area-text {
+    padding: 0px 36px 0px 0px;
+  }
+
+  .benefit-right .wrapper img {
+    width:initial;
+    left:-50%;
+  }
+
+  .scroll-dots {
+    left:20px;
+  }
+
+  .more-card,
+  .team-card {
+    width:calc(50% - 20px);
+    margin-bottom:56px;
+  }
+
+  #cardano .workspace {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #cardano .workspace .half {
+    width:100%;
+  }
+
+  #cardano .workspace .half:nth-child(2) {
+    width:80%;
+  }
+
+  #cardano .workspace ul {
+    margin-top:60px;
+  }
+
+  #partners .medium-big-text {
+    max-width: 100%;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  footer .workspace {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .foot-left,
+  .foot-right {
+    width:100%;
+  }
+
+  .foot-right  {
+    margin-top:80px;
+  }
+
+  .animate.d200,
+  .animate.d400 {
+    animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+  }
+
+  .team-card:nth-child(odd) .wave {
+    bottom: -20px!important;
+    top:auto!important;
+  }
+
+  .team-card:nth-child(even) .wave {
+    top: -20px!important;
+    bottom:auto!important;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .workspace {
+      width: calc(100% - 60px);
+  }
+
+  .top-fund9{
+    display: none;
+  }
+
+  #social-fixed.in {
+    opacity:0;
+  }
+
+  #social-fixed.in.resp {
+    opacity:1;
+  }
+
+  .top-button {
+    transform: translateY(-40px) translateX(-20px);
+  -moz-transform: translateY(-40px) translateX(-20px);
+  -webkit-transform: translateY(-40px) translateX(-20px);
+  }
+
+  .top-button.in {
+    opacity:0;
+    transform: translateY(0px) translateX(-20px);
+    -moz-transform: translateY(0px) translateX(-20px);
+    -webkit-transform: translateY(0px) translateX(-20px);
+  }
+
+  .top-button.in.resp,
+  .top-button.resp {
+    opacity:1;
+    transform: translateY(0px) translateX(0px);
+    -moz-transform: translateY(0px) translateX(0px);
+    -webkit-transform: translateY(0px) translateX(0px);
+  }
+
+  .big-logo {
+    width:90%;
+    padding-top:10px;
+  }
+
+  .burger {
+    top:24px;
+    right:24px;
+  }
+
+  #mission {
+    padding:40px 0px;
+  }
+
+  .very-big-text {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .section-titles {
+    font-size: 16px;
+  }
+  .scroll-tri {
+    display:none;
+  }
+
+  .scroll-tri-top-resp {
+    display:block;
+    position:absolute;
+    top:-24px;
+    left:0px;
+    width:62px;
+    height:70px;
+    background:url('../img/svg/trianguls-green.svg');
+    background-repeat: no-repeat;
+    z-index:10;
+    background-size:100%
+  }
+
+  #mission .flex {
+    flex-direction: column;
+  }
+
+  .half {
+    width:100%;
+  }
+
+  .m2 {
+    margin-top:20px;
+  }
+
+  .benefit-right {
+    display:none;
+  }
+
+  .benefit-left {
+    width:100%;
+  }
+
+  h4.subtitles {
+    font-size:16px;
+  }
+
+  .text-20 {
+    font-size: 16px;
+    line-height: 1.8em;
+  }
+
+  .b-content {
+    height:auto;
+    padding-bottom:40px;
+  }
+
+  .b-area-text {
+    padding:0;
+  }
+
+  .scroll-dots {
+    left: 0px;
+    top: -60px;
+    width: 60px;
+    height: 66px;
+  }
+
+  .scroll-lines {
+    right: 0px;
+    top: -90px;
+    width: 60px;
+    height: 66px;
+  }
+  .mm-top {
+    position: relative;
+    padding: 30px 0px;
+  }
+  .more-card, .team-card {
+    width: 100%;
+    margin-bottom: 56px;
+  }
+
+  #much-more .flex {
+    margin-top:-20px;
+  }
+
+  #much-more {
+    padding: 50px 0px 10px 0px;
+  }
+
+  #cardano {
+    padding: 50px 0px;
+  }
+
+  #cardano .workspace .half:nth-child(2) {
+    width:100%;
+  }
+
+
+
+  .ada {
+    width:60px;
+    top:-20px;
+    right:0;
+  }
+
+  .ada img {
+    width:100%;
+  }
+  .medium-big-text {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  #cardano .workspace ul {
+    margin-top: 30px;
+    padding-left: 20px;
+  }
+
+  #cardano .workspace ul li::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    background: var(--wagasi);
+    border-radius: 100%;
+    left: -18px;
+    top: 14px;
+}
+
+  #roadmap {
+    padding:50px 0px;
+  }
+
+  #roadmap .owl-nav {
+    position: absolute;
+    top: -46px;
+    right: -28px;
+    transform: scale(.7);
+    -webkit-transform: scale(.7);
+    -moz-transform: scale(.7);
+  }
+
+  #the-team {
+    padding:50px 0px 0px 0px;
+  }
+
+  .team-top img {
+    width: 66px;
+    margin-right:12px;
+  }
+
+  .team-card:nth-child(even) .wave,
+  .team-card:nth-child(odd) .wave {
+    top: auto!important;
+    bottom: -20px!important;
+  }
+
+  #partners .medium-big-text {
+    font-family: var(--text);
+    font-size: 18px;
+    line-height: 32px;
+    font-weight:400;
+  }
+
+  .big-partners {
+    margin:60px 0px 40px 0px;
+  }
+
+  footer .workspace {
+    padding:60px 0px;
+  }
+
+  header.expand {
+    width:80%;
+  }
+
+  header ul li {
+    text-align: left;
+  }
+
+
+  .top-button img {
+    width:30px;
+    height:30px;
+  }
+
+    .top-button a {
+      line-height: 0;
+    }
+
+  .top-button {
+    width:48px;
+    height:48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+    left: 10px;
+    border-radius: 100%;
+    background: var(--kambaba);
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+
+  }
+
+  .mission-1 {
+    animation-delay:.8s!important;
   }
 }

@@ -245,7 +245,7 @@ a.fund9:first-child {
   bottom:32px;
   right:40px;
   width:24px;
-  z-index:10;
+  z-index:30;
 }
 
 #social-fixed img {
@@ -267,7 +267,7 @@ a.fund9:first-child {
 
 header {
   position:fixed;
-  z-index:8;
+  z-index:20;
   right:0;
   top:0;
   height:100vh;
@@ -919,6 +919,7 @@ footer .workspace .medium-big-text {
   position:relative;
   z-index:2;
   transition-duration:.15s;
+  white-space: nowrap;
 }
 
 .foot-left a:hover {
@@ -1139,4 +1140,8 @@ body::-webkit-scrollbar-thumb {
   background:url('../img/svg/lines.svg');
   background-repeat: no-repeat;
   z-index:10;
+}
+
+.scroll-tri-top-resp {
+  display:none;
 }

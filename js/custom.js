@@ -67,6 +67,7 @@ jQuery(document).ready(function( $ ){
     $('.burger').click(function(){
       $(this).toggleClass('close-icon');
       $('header').toggleClass('expand');
+      $('#social-fixed').toggleClass('resp');
     });
 
     $('header ul li a').click(function(){
@@ -156,7 +157,8 @@ jQuery(document).ready(function( $ ){
           dots:false,
           responsive:{
               0:{
-                  items:1
+                  items:1,
+                  margin:8
               },
               600:{
                   items:2
@@ -179,6 +181,20 @@ jQuery(document).ready(function( $ ){
               }
           });
 
+      });
+
+
+      // responsive Peerpost symbol top-left show
+
+      $(window).on('scroll', function() {
+            scrollPosition = $(this).scrollTop();
+            if (scrollPosition >= 120) {
+
+              $('.top-button').addClass('resp');
+
+            } else {
+              $('.top-button').removeClass('resp');
+            }
       });
 
 });
