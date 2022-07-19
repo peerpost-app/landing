@@ -75,6 +75,7 @@ jQuery(document).ready(function( $ ){
       setTimeout(function(){
         $('.burger').toggleClass('close-icon');
         $('header').toggleClass('expand');
+        $('#social-fixed').toggleClass('resp');
         $('body').toggleClass('menu-on');
       }, 1000);
     });
