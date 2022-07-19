@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+	RewriteCond %{HTTPS} off [OR]
+	RewriteCond %{HTTP_HOST} ^www\.peerpost\.io [NC]
+	RewriteRule (.*) https://peerpost.io/$1 [L,R=301]
+</IfModule>
