@@ -106,7 +106,6 @@ jQuery(document).ready(function( $ ){
         	var element1 = document.querySelector('.kb1');
           var imm1 = document.querySelector('#s-img-1');
           var position = element1.getBoundingClientRect();
-          var positionz = imm1.getBoundingClientRect();
 
           var element2 = document.querySelector('.kb2');
           var imm2 = document.querySelector('#s-img-2');
@@ -117,14 +116,8 @@ jQuery(document).ready(function( $ ){
           var position3 = element3.getBoundingClientRect();
 
         	// first slide
-        	if(position.top >= 0 && position.bottom <= window.innerHeight) {
 
-            imm1.classList.add("inview");
-        	} else {
-            imm1.classList.remove("inview");
-          }
-
-          if(positionz.top < window.innerHeight && position.bottom >= 0) {
+          if(position.top < window.innerHeight && position.bottom >= 0) {
 
             imm1.classList.add("inview");
         	} else {
@@ -132,7 +125,7 @@ jQuery(document).ready(function( $ ){
           }
 
           // second slide
-          if(position2.top >= 0 && position2.bottom <= window.innerHeight) {
+          if(position2.top < window.innerHeight && position2.bottom >= 0) {
 
             imm2.classList.add("inview");
           } else {
@@ -140,7 +133,7 @@ jQuery(document).ready(function( $ ){
           }
 
           // third slide
-          if(position3.top >= 0 && position3.bottom <= window.innerHeight) {
+          if(position3.top < window.innerHeight && position3.bottom >= 0)  {
 
             imm3.classList.add("inview");
           } else {
