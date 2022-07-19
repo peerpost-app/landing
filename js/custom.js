@@ -36,6 +36,10 @@ window.addEventListener("load", event => {
     $('.bottom-hero').addClass('in');
   }, 700);
 
+  setTimeout(function(){
+    $('.top-fund9').addClass('in');
+  }, 900);
+
 });
 
 
