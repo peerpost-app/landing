@@ -144,6 +144,14 @@
   }
 }
 
+@media screen and (max-width : 950px) {
+
+   .team-card {
+  	width: calc(50% - 20px);
+    margin-right:0;
+  }
+}
+
 @media screen and (max-width : 800px) {
   /*coming soon page*/
   .triangul {

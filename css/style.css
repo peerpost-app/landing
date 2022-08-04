@@ -591,7 +591,7 @@ h4.subtitles {
 }
 
 #much-more .flex {
-	justify-content: space-between;
+	column-gap:30px;
 	flex-wrap: wrap;
 	position: relative;
 	margin-top: -40px;
@@ -794,6 +794,7 @@ h4.subtitles {
 	color: var(--wagasi);
 	/* height: max-content; */
 	display: flex;
+
 }
 
 .team-card__content {
@@ -802,7 +803,7 @@ h4.subtitles {
 }
 
 #the-team .flex {
-	justify-content: space-between;
+	column-gap: 30px;
 	flex-wrap: wrap;
 	position: relative;
 	margin-top: 60px;
@@ -878,6 +879,41 @@ h4.subtitles {
 
 #partners .medium-big-text {
 	max-width: 80%;
+}
+
+.sponsor-images {
+	margin:100px 0px;
+	display:flex;
+	column-gap: 80px;
+}
+
+.sponsor-images a {
+	position:relative;
+		display:flex;
+		width:max-content;
+}
+
+.sponsor-images a:before {
+	content: "";
+	width: calc(100% + 40px);
+	height: 0px;
+	background-color: var(--grassland);
+	position: absolute;
+	bottom: -20px;
+	left: -20px;
+	transition-duration:.15s;
+	-webkit-transition-duration:.15s;
+	-moz-transition-duration:.15s;
+	z-index: -1;
+}
+
+.sponsor-images a img {
+	height:80px;
+
+}
+
+.sponsor-images a:hover:before {
+	height:calc(100% + 40px);
 }
 
 .big-partners {
