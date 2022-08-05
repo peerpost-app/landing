@@ -882,8 +882,9 @@ h4.subtitles {
 }
 
 .sponsor-images {
-	margin:100px 0px;
+	margin:80px 0px 40px 0px;
 	display:flex;
+	flex-wrap: wrap;
 	column-gap: 80px;
 }
 
@@ -891,6 +892,7 @@ h4.subtitles {
 	position:relative;
 		display:flex;
 		width:max-content;
+		margin-bottom:40px;
 }
 
 .sponsor-images a:before {

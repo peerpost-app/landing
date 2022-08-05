@@ -566,4 +566,12 @@
   .mission-1 {
     animation-delay:.8s!important;
   }
+
+  .sponsor-images {
+      margin: 60px 0px 0px 0px;
+  }
+
+  .sponsor-images a img {
+    height: 60px;
+  }
 }
