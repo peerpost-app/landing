@@ -304,7 +304,19 @@
   }
 
   .top-fund9{
-    display: none;
+    margin-left:0;
+    flex-direction: column;
+  }
+
+  a.fund9 {
+    margin-top:8px;
+    margin-right:0;
+    padding:8px;
+    margin-left:-20px;
+  }
+
+  a.fund9 img {
+    width:28px;
   }
 
   #social-fixed.in {
@@ -365,8 +377,8 @@
   .scroll-tri-top-resp {
     display:block;
     position:absolute;
-    top:-24px;
-    left:0px;
+    bottom:-24px;
+    right:0px;
     width:62px;
     height:70px;
     background:url('../img/svg/trianguls-green.svg');
