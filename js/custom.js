@@ -38,6 +38,7 @@ window.addEventListener("load", event => {
 
   setTimeout(function(){
     $('.top-fund9').addClass('in');
+    $('.resp-catalist').addClass('in');
   }, 900);
 
 });

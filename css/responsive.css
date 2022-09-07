@@ -315,6 +315,14 @@
     font-size:14px;
     line-height:14px;
     font-weight:700;
+    transition-duration: .6s;
+    opacity:0;
+    transform:translateY(20px);
+  }
+
+  .resp-catalist.in {
+    opacity:1;
+    transform:translateY(-0px);
   }
 
   .resp-catalist  .workspace {
