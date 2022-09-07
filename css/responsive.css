@@ -304,19 +304,40 @@
   }
 
   .top-fund9{
-    margin-left:0;
-    flex-direction: column;
+    display: none;
   }
 
-  a.fund9 {
-    margin-top:8px;
-    margin-right:0;
-    padding:8px;
-    margin-left:-20px;
+  .resp-catalist {
+    display:block;
+    background:var(--grassland);
+    padding:14px 0px;
+    color:var(--kambaba);
+    font-size:14px;
+    line-height:14px;
+    font-weight:700;
   }
 
-  a.fund9 img {
-    width:28px;
+  .resp-catalist  .workspace {
+    width: calc(100% - 30px);
+  }
+
+  .resp-catalist .flex {
+
+    align-items: center;
+
+  }
+
+  .resp-catalist a{
+    padding: 8px;
+    background-color: var(--kambaba);
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left:8px;
+  }
+
+  .resp-catalist img {
+    width:26px;
+    margin-right:4px;
   }
 
   #social-fixed.in {
@@ -377,8 +398,8 @@
   .scroll-tri-top-resp {
     display:block;
     position:absolute;
-    bottom:-24px;
-    right:0px;
+    top:-24px;
+    left:0px;
     width:62px;
     height:70px;
     background:url('../img/svg/trianguls-green.svg');

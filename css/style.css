@@ -1192,3 +1192,7 @@ body::-webkit-scrollbar-thumb {
 .scroll-tri-top-resp {
 	display: none;
 }
+
+.resp-catalist {
+	display:none;
+}
